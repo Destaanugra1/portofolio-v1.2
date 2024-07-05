@@ -10,7 +10,8 @@ const HomeComp = () => {
           Hi' <spam className={Styles.awal__span}>Welcome my Webside</spam>
         </h1>
         <p className={Styles.awal__p}>My name Desta Anugra</p>
-        <p className={Styles.awal__p}>I'm a Web Developer Junior</p>
+        <p className={Styles.awal__p__1}>I'm a Web Developer Junior</p>
+        <button href="/" className={Styles.bn5}><a className={Styles.awal__p__buttom} href="/">Learn</a></button>
       </div>
       <div className={Styles.awal}>
         <img
