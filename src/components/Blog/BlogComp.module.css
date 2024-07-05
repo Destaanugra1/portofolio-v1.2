@@ -1,0 +1,53 @@
+.blog {
+  height: 85vh;
+  display: flex;
+  padding: 1.5rem 7%;
+  margin: 0;
+  justify-content: space-between;
+  align-items: center; /* Center items vertically */
+}
+
+.gambar {
+  width: 50%; /* Adjust width as needed */
+  height: auto;
+  border-radius: 146px 114px 163px 87px;
+  background-color: #ECB176;
+}
+
+.intro {
+  font-family: 'poppins', sans-serif;
+  font-size: 1.5rem;
+}
+
+.perkenalan {
+  display: grid;
+  grid-template-columns: 1fr 2fr; /* Two columns */
+  gap: 1rem; /* Adjust gap as needed */
+  align-items: center; /* Align items vertically in the center */
+}
+
+.perkenalan__diri {
+  margin: 0; /* Remove default margin */
+}
+
+.perkenalan__diri__1 {
+  margin: 0; /* Remove default margin */
+}
+
+@media screen and (max-width: 768px) {
+  .blog {
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center items horizontally */
+  }
+
+  .gambar {
+    width: 80%; /* Adjust width as needed */
+    margin: 1rem 0; /* Add some margin for spacing */
+  }
+
+  .perkenalan {
+    grid-template-columns: 1fr; /* Single column */
+    text-align: center; /* Center text */
+  }
+}
+

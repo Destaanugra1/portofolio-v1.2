@@ -131,17 +131,13 @@ background-color: #ECB176;
 
 @media screen and (max-width: 768px) {
   .awal__div__body__full {
-    flex-direction: column;
-    padding: 0;
-    margin: 0;
-    height: 50vh;
+    height: auto;
+    flex-direction: column-reverse;
   }
   .awal__img {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50%;
-    margin-left: 4.5rem;
-    
   }
 }

@@ -4,7 +4,7 @@ import images from "../images/foto2.png"
 
 const HomeComp = () => {
   return (
-    <div className={Styles.awal__div__body__full}>
+    <div id='Home' className={Styles.awal__div__body__full}>
       <div className={Styles.awal__div__body}>
         <h1 className={Styles.awal}>
           Hi' <spam className={Styles.awal__span}>Welcome my Webside</spam>
