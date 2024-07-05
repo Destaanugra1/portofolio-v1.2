@@ -1,0 +1,31 @@
+.awal__div__body {
+  padding: 1.5rem 7%;
+}
+
+.awal__div__body__full {
+  display: flex;
+  justify-content: space-between;
+}
+.awal {
+  margin-top: 12rem;
+  font-family: 'popins', sans-serif;
+}
+
+.awal__span {
+  padding: 0.1rem;
+  font-style: italic;
+  color: #ECB176;
+}
+
+.awal__p {
+  margin-top: 0;
+}
+
+.awal__img {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  width: 50%;
+  height: auto;
+  margin-left: 3rem;
+}
