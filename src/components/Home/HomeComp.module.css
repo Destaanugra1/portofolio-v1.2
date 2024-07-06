@@ -1,5 +1,5 @@
 :root {
-  --primary: #ECB176;
+  --primary: #ecb176;
 }
 
 .awal__div__body {
@@ -13,13 +13,34 @@
 }
 .awal {
   margin-top: 12rem;
-  font-family: 'popins', sans-serif;
+  font-family: "popins", sans-serif;
+  font-size: 2rem;
 }
 
 .awal__span {
-  padding: 0.1rem;
   font-style: italic;
-  color: #ECB176;
+  color: #ecb176;
+  overflow: hidden;
+  border-right: 0.15em solid #ecb176;
+  animation: berjalan 5s steps(18, end), berkedip 0.5s ease infinite;
+  white-space: nowrap;
+}
+
+/* animasi ketik */
+@keyframes berjalan {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes berkedip {
+  from{border-color: transparent;
+  }
+  50%{border-color: #ecb176;}
+  to{border-color: transparent;}
 }
 
 .awal__p {
@@ -38,16 +59,16 @@
   height: auto;
   margin-left: 3rem;
   border-radius: 146px 114px 163px 87px;
--webkit-border-radius: 146px 114px 163px 87px;
--moz-border-radius: 146px 114px 163px 87px;
-background-color: #ECB176;
+  -webkit-border-radius: 146px 114px 163px 87px;
+  -moz-border-radius: 146px 114px 163px 87px;
+  background-color: #ecb176;
 }
 
 /* Buttom */
 
 .awal__p__buttom {
   color: white;
-  font-family: 'poppins', sans-serif;
+  font-family: "poppins", sans-serif;
   text-decoration: none;
   font-style: italic;
 }
@@ -148,32 +169,18 @@ background-color: #ECB176;
     font-size: 4rem;
   }
   .awal__span {
-    padding: 0.1rem;
+    font-size: 2.5rem;
     font-style: italic;
-    color: #ECB176;
-  }.awal__p {
+    color: #ecb176;
+  }
+  .awal__p {
     color: white;
     font-size: 2rem;
-  }.awal__p__1 {
+  }
+  .awal__p__1 {
     font-size: 2rem;
-  }.awal__p__1__2 {
+  }
+  .awal__p__1__2 {
     color: var(--primary);
   }
 }
-
-/* .style {
-  display: flex;
-  justify-content: center;
-  border-bottom: #000;
-  margin-top: 0.1rem;
-  border-color: #000;
-  background-color: #543310;
-  text-indent: -9999px;
-  border-radius: 1px;
-  width: 50%;
-  align-items: center;
-  margin-left: 50vh;
-  border-radius: 90px 95px 0px 0px;
--webkit-border-radius: 90px 95px 0px 0px;
--moz-border-radius: 90px 95px 0px 0px;
-} */
