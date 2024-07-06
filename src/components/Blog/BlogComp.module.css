@@ -33,6 +33,9 @@
 
 .perkenalan__diri__1 {
   margin: 0; 
+  font-style: italic;
+  font-family: 'poppins', sans-serif;
+  font-size: 1.5rem;
 }
 
 @media screen and (max-width: 768px) {

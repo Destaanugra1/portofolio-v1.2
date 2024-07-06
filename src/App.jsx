@@ -5,6 +5,8 @@ import { useEffect } from "react";
 import HomeComp from "./components/Home/HomeComp";
 import BlogComp from "./components/Blog/BlogComp";
 import SkilsComp from "./components/Skils/SkilsComp";
+import FooterComp from "./components/Footer/FooterComp";
+
 
 function App() {
   useEffect(() => {
@@ -26,6 +28,10 @@ function App() {
 
       <div>
         <SkilsComp />
+      </div>
+
+      <div>
+        <FooterComp />
       </div>
     </>
   );

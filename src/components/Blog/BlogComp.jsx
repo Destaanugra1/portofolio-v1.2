@@ -11,11 +11,11 @@ const BlogComp = () => {
         <h1 className={Styles.intro}>Hallo Saya Akan Memperkenalkan Diri</h1>
         <div className={Styles.perkenalan}>
           <h3 className={Styles.perkenalan__diri}>Nama:</h3>
-          <p className={Styles.perkenalan__diri__1}>Desta Anugra</p>
+          <p className={Styles.perkenalan__diri__1}>Desta Anugra Pratama</p>
           <h3 className={Styles.perkenalan__diri}>Alamat:</h3>
-          <p className={Styles.perkenalan__diri__1}>Jl. Kageno No. 1</p>
+          <p className={Styles.perkenalan__diri__1}>Lampung, Lampung utara</p>
           <h3 className={Styles.perkenalan__diri}>Email:</h3>
-          <p className={Styles.perkenalan__diri__1}>blalalal</p>
+          <p className={Styles.perkenalan__diri__1}>destaanugrapratama@gmail.com</p>
         </div>
       </div>
     </div>

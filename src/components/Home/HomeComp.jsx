@@ -9,6 +9,7 @@ const HomeComp = () => {
       <div className={Styles.awal__div__body}>
         <h1 className={Styles.awal}>
           Hi' <spam className={Styles.awal__span}>Welcome my Webside</spam>
+        
         </h1>
         <p className={Styles.awal__p}>My name Desta</p>
         <p className={Styles.awal__p__1}>I'm a Web Deve<span className={Styles.awal__p__1__2}>loper</span> Junior</p>

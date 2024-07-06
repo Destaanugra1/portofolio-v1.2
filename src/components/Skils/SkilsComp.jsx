@@ -9,37 +9,38 @@ import Nextjs from "../images/Nextjs.png"
 
 const SkilsComp = () => {
   return (
-    <div className={Styles.skils}>
+    <div id='Skils' className={Styles.skils}>
     <Card className={Styles.card} style={{ width: '18rem', height: '20rem' }}>
       <Card.Img variant="top" src={Html} />
       <Card.Body>
-        <Card.Title>Html 50%</Card.Title>
+        <Card.Title className={Styles.card__text}>Html 50%</Card.Title>
       </Card.Body>
     </Card>
     <Card className={Styles.card} style={{ width: '18rem', height: '20rem' }}>
       <Card.Img variant="top" src={Css} />
       <Card.Body>
-        <Card.Title>CSS 40%</Card.Title>
+        <Card.Title className={Styles.card__text}>CSS 40%</Card.Title>
       </Card.Body>
     </Card>
     <Card className={Styles.card} style={{ width: '18rem', height: '20rem' }}>
       <Card.Img variant="top" src={Js} />
       <Card.Body>
-        <Card.Title>JavaScript 25%</Card.Title>
+        <Card.Title className={Styles.card__text}> JavaScript 25%</Card.Title>
       </Card.Body>
     </Card>
     <Card className={Styles.card} style={{ width: '18rem', height: '20rem' }}>
       <Card.Img variant="top" src={Reactjs}/>
       <Card.Body>
-        <Card.Title>React 30%</Card.Title>
+        <Card.Title className={Styles.card__text}>React 30%</Card.Title>
       </Card.Body>
     </Card>
     <Card className={Styles.card} style={{ width: '18rem', height: '20rem' }}>
       <Card.Img className={Styles.nextjs} variant="top" src={Nextjs} />
       <Card.Body>
-        <Card.Title>Nextjs 20%</Card.Title>
+        <Card.Title className={Styles.card__text}>Nextjs 20%</Card.Title>
       </Card.Body>
     </Card>
+    
     </div>
   )
 }
