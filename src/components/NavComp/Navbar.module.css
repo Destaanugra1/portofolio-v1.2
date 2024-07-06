@@ -12,6 +12,9 @@
   left: 0;
   right: 0;
   z-index: 9999;
+  outline: none;
+  border: none;
+  text-decoration: none;
 }
 
 .navbar__blog {
@@ -19,6 +22,7 @@
   display: inline-block;
   font-size: 1rem;
   padding: 5px;
+  text-decoration: none;
 }
 
 .navbar__blog:hover {
@@ -43,6 +47,7 @@
   font-weight: 700;
   color: #fff;
   font-style: italic;
+  text-decoration: none;
 }
 
 .navbar__logo__span {

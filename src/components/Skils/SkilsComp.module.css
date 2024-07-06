@@ -1,0 +1,37 @@
+.skils {
+  height: auto;
+  margin-top: 5rem;
+  gap: 1rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 7%;
+}
+
+.card {
+  background-color: #ECB176;
+  border-radius: 10px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: (1px, 2px, 5px, #fff);
+}
+
+.nextjs {
+  width: 15rem;
+  height: auto;
+}
+
+/* Mobile */
+@media screen and (max-width: 768px) {
+  .skils {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 100%;
+    margin: 1rem 0;
+  }
+}

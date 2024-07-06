@@ -48,6 +48,7 @@ background-color: #ECB176;
 .awal__p__buttom {
   color: white;
   font-family: 'poppins', sans-serif;
+  text-decoration: none;
   font-style: italic;
 }
 

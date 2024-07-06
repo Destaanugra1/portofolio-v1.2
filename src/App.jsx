@@ -4,6 +4,7 @@ import Navbar from "./components/NavComp/Navbar,";
 import { useEffect } from "react";
 import HomeComp from "./components/Home/HomeComp";
 import BlogComp from "./components/Blog/BlogComp";
+import SkilsComp from "./components/Skils/SkilsComp";
 
 function App() {
   useEffect(() => {
@@ -21,6 +22,10 @@ function App() {
 
       <div>
         <BlogComp />
+      </div>
+
+      <div>
+        <SkilsComp />
       </div>
     </>
   );
