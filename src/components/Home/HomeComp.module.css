@@ -158,13 +158,9 @@ background-color: #ECB176;
   }.awal__p__1__2 {
     color: var(--primary);
   }
-  .style {
-    display: hidden;
-    opacity: 0;
-  }
 }
 
-.style {
+/* .style {
   display: flex;
   justify-content: center;
   border-bottom: #000;
@@ -179,4 +175,4 @@ background-color: #ECB176;
   border-radius: 90px 95px 0px 0px;
 -webkit-border-radius: 90px 95px 0px 0px;
 -moz-border-radius: 90px 95px 0px 0px;
-}
+} */

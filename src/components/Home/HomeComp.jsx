@@ -22,7 +22,7 @@ const HomeComp = () => {
         />
       </div>
     </div>
-    <div className={Styles.style}>text</div>
+    {/* <div className={Styles.style}>text</div> */}
     </>
   );
 };
