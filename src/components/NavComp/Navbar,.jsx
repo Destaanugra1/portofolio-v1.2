@@ -18,9 +18,10 @@ const Navbar = () => {
         >
           &#9776;
         </i>
-        <div className={`${Styles.navblog} ${menuActive ? Styles.active : ''}`}> 
+        <div className={`${Styles.navblog} ${menuActive ? Styles.active : ''}`}>
           <a className={Styles.navbar__blog} href="#Home">Home</a>
-          <a className={Styles.navbar__blog} href="/">Blog</a>
+          <a className={Styles.navbar__blog} href="#Blog">Blog</a>
+          <a className={Styles.navbar__blog} href="/">Skils</a>
           <a className={Styles.navbar__blog} href="/">Kontak</a>
         </div>
       </nav>

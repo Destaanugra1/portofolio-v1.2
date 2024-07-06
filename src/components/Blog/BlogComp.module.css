@@ -4,11 +4,12 @@
   padding: 1.5rem 7%;
   margin: 0;
   justify-content: space-between;
-  align-items: center; /* Center items vertically */
+  align-items: center;
+  background-color: #543310;
 }
 
 .gambar {
-  width: 50%; /* Adjust width as needed */
+  width: 80%;
   height: auto;
   border-radius: 146px 114px 163px 87px;
   background-color: #ECB176;
@@ -16,38 +17,41 @@
 
 .intro {
   font-family: 'poppins', sans-serif;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 .perkenalan {
   display: grid;
-  grid-template-columns: 1fr 2fr; /* Two columns */
-  gap: 1rem; /* Adjust gap as needed */
-  align-items: center; /* Align items vertically in the center */
+  grid-template-columns: 1fr 2fr; 
+  gap: 0.1rem; 
+  align-items: center; 
 }
 
 .perkenalan__diri {
-  margin: 0; /* Remove default margin */
+  margin: 0; 
 }
 
 .perkenalan__diri__1 {
-  margin: 0; /* Remove default margin */
+  margin: 0; 
 }
 
 @media screen and (max-width: 768px) {
   .blog {
-    flex-direction: column; /* Stack elements vertically */
-    align-items: center; /* Center items horizontally */
+    flex-direction: column; 
+    align-items: center; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
   }
 
   .gambar {
-    width: 80%; /* Adjust width as needed */
-    margin: 1rem 0; /* Add some margin for spacing */
-  }
+    width: 100%; 
+    margin: 1rem 0; 
 
   .perkenalan {
-    grid-template-columns: 1fr; /* Single column */
-    text-align: center; /* Center text */
+    grid-template-columns: 1fr; 
+    text-align: center; 
   }
+}
 }
 

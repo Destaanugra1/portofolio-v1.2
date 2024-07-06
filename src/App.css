@@ -25,3 +25,17 @@ body {
   color: #fff;
 }
 
+@media screen and (max-width: 768px) {
+  body {
+    /* overflow-x: hidden; */
+    width: 100%;
+    padding: 0;
+    padding: 0;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+
+}
+

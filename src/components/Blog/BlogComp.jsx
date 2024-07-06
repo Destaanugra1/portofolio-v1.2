@@ -3,7 +3,7 @@ import images from "../images/kageno.png";
 
 const BlogComp = () => {
   return (
-    <div className={Styles.blog}>
+    <div id="Blog" className={Styles.blog}>
       <div>
         <img className={Styles.gambar} src={images} alt="foto" />
       </div>
