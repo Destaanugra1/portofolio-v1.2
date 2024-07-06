@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <div>
       <nav className={Styles.navbar}>
-        <a href="/" className={Styles.navbar__logo}> Porto<span className={Styles.navbar__logo__span}>folio</span></a>
+        <a href="#Home" className={Styles.navbar__logo}> Porto<span className={Styles.navbar__logo__span}>folio</span></a>
         <i 
           className={Styles.navbar__blog__icon} 
           onClick={toggleMenu} 

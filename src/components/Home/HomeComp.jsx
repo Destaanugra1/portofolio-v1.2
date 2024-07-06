@@ -13,7 +13,7 @@ const HomeComp = () => {
         </h1>
         <p className={Styles.awal__p}>My name Desta</p>
         <p className={Styles.awal__p__1}>I'm a Web Deve<span className={Styles.awal__p__1__2}>loper</span> Junior</p>
-        <button href="/" className={Styles.bn5}><a className={Styles.awal__p__buttom} href="/">Learn</a></button>
+        <button href="/" className={Styles.bn5}><a className={Styles.awal__p__buttom} href="#Skils">Learn</a></button>
       </div>
       <div className={Styles.awal}>
         <img

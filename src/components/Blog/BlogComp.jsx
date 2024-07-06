@@ -14,8 +14,8 @@ const BlogComp = () => {
           <p className={Styles.perkenalan__diri__1}>Desta Anugra Pratama</p>
           <h3 className={Styles.perkenalan__diri}>Alamat:</h3>
           <p className={Styles.perkenalan__diri__1}>Lampung, Lampung utara</p>
-          <h3 className={Styles.perkenalan__diri}>Email:</h3>
-          <p className={Styles.perkenalan__diri__1}>destaanugrapratama@gmail.com</p>
+          {/* <h3 className={Styles.perkenalan__diri}>Email:</h3>
+          <p className={Styles.perkenalan__diri__1__email}>destaanugrapratama@gmail.com</p> */}
         </div>
       </div>
     </div>
