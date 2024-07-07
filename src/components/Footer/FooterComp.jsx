@@ -6,12 +6,12 @@ const FooterComp = () => {
   // }, []);
 
   return (
-    <footer className="bg-coffe">
+    <footer id="Footer" className="bg-coffe">
       <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 lg:px-8">
         <div className="sm:flex sm:items-center sm:justify-between">
           <div className="flex justify-center text-teal-600 sm:justify-start"></div>
           <a href="/" className="flex gap-4 justify-end">
-            <a href="/"><svg
+            <a href="https://www.instagram.com/destaanugrahpr?igsh=b3AxNHk4ZGZocHJm"><svg
               xmlns="http://www.w3.org/2000/svg"
               width="40"
               height="40"

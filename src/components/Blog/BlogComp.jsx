@@ -8,10 +8,10 @@ AOS.init();
 const BlogComp = () => {
   return (
     <div id="Blog" className={Styles.blog}>
-      <div data-aos="fade-right" data-aos-delay="400">
+      <div data-aos="fade-down" data-aos-delay="400">
         <img className={Styles.gambar} src={images} alt="foto" />
       </div>
-      <div data-aos="fade-left" data-aos-delay="500"> 
+      <div data-aos="zoom-in" data-aos-delay="500"> 
         <h1 className={Styles.intro}>Hallo Saya Akan Memperkenalkan Diri</h1>
         <div className={Styles.perkenalan}>
           <h3 className={Styles.perkenalan__diri}>Nama:</h3>

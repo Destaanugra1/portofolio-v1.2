@@ -6,30 +6,31 @@ import Css from "../images/css.png"
 import Js from "../images/js.png"
 import Reactjs from "../images/React.png"
 import Nextjs from "../images/Nextjs.png"
+import Tailwind from "../images/tailwind.png"
 
 const SkilsComp = () => {
   return (
     <div id='Skils' className={Styles.skils}>
     <Card className={Styles.card} style={{ width: '18rem', height: '20rem' }}>
-      <Card.Img variant="top" src={Html} />
+      <Card.Img className={Styles.images} variant="top" src={Html} />
       <Card.Body>
         <Card.Title className={Styles.card__text}>Html 50%</Card.Title>
       </Card.Body>
     </Card>
     <Card className={Styles.card} style={{ width: '18rem', height: '20rem' }}>
-      <Card.Img variant="top" src={Css} />
+      <Card.Img className={Styles.images} variant="top" src={Css} />
       <Card.Body>
         <Card.Title className={Styles.card__text}>CSS 40%</Card.Title>
       </Card.Body>
     </Card>
     <Card className={Styles.card} style={{ width: '18rem', height: '20rem' }}>
-      <Card.Img variant="top" src={Js} />
+      <Card.Img className={Styles.images} variant="top" src={Js} />
       <Card.Body>
         <Card.Title className={Styles.card__text}> JavaScript 25%</Card.Title>
       </Card.Body>
     </Card>
     <Card className={Styles.card} style={{ width: '18rem', height: '20rem' }}>
-      <Card.Img variant="top" src={Reactjs}/>
+      <Card.Img className={Styles.images} variant="top" src={Reactjs}/>
       <Card.Body>
         <Card.Title className={Styles.card__text}>React 30%</Card.Title>
       </Card.Body>
@@ -37,10 +38,15 @@ const SkilsComp = () => {
     <Card className={Styles.card} style={{ width: '18rem', height: '20rem' }}>
       <Card.Img className={Styles.nextjs} variant="top" src={Nextjs} />
       <Card.Body>
-        <Card.Title className={Styles.card__text}>Nextjs 20%</Card.Title>
+        <Card.Title className={Styles.card__text__nextjs}>Nextjs 20%</Card.Title>
       </Card.Body>
     </Card>
-    
+    <Card className={Styles.card} style={{ width: '18rem', height: '20rem' }}>
+      <Card.Img className={Styles.images} variant="top" src={Tailwind} />
+      <Card.Body>
+        <Card.Title className={Styles.card__text}>Tailwind 25%</Card.Title>
+      </Card.Body>
+    </Card>
     </div>
   )
 }
