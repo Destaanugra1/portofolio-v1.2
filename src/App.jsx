@@ -6,6 +6,10 @@ import HomeComp from "./components/Home/HomeComp";
 import BlogComp from "./components/Blog/BlogComp";
 import SkilsComp from "./components/Skils/SkilsComp";
 import FooterComp from "./components/Footer/FooterComp";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
 
 
 function App() {
