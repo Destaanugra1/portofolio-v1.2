@@ -1,9 +1,27 @@
+import { Accordion } from "react-bootstrap";
+import Styles from "./FaqComp.module.css"
+
 const FooterComp = () => {
   return (
+    <div className={Styles.footer}>
     <footer id="Footer" className="bg-coffe">
       <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 lg:px-8">
         <div className="sm:flex sm:items-center sm:justify-between">
           <div className="flex justify-center text-teal-600 sm:justify-start"></div>
+          <Accordion className={Styles.accordion} defaultActiveKey="0">
+      <Accordion.Item className={Styles.header} eventKey="0">
+        <Accordion.Header className={Styles.header}>Umur</Accordion.Header>
+        <Accordion.Body>
+          Umur hanyalah angka 
+        </Accordion.Body>
+      </Accordion.Item>
+      <Accordion.Item lassName={Styles.accordion} eventKey="1">
+        <Accordion.Header className={Styles.header}>Whatsapp</Accordion.Header>
+        <Accordion.Body className={Styles.header}>
+          <a href="https://wa.me/089652277495" about="Ada yang bisa di bantu?">klik me</a>
+        </Accordion.Body>
+      </Accordion.Item>
+    </Accordion>
           <a href="/" className="flex gap-4 justify-end">
             <a href="https://www.instagram.com/destaanugrahpr?igsh=b3AxNHk4ZGZocHJm"><svg
               xmlns="http://www.w3.org/2000/svg"
@@ -43,6 +61,7 @@ const FooterComp = () => {
         </div>
       </div>
     </footer>
+    </div>
   );
 };
 

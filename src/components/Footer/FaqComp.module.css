@@ -1,0 +1,24 @@
+.footer {
+    height: auto;
+}
+
+.accordion {
+    width: 40%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
+    gap: 1rem;
+    margin-left: 5.5rem;
+}
+
+@media screen and (max-width: 768px) {
+    .accordion {
+        margin-bottom: 2rem;
+    }
+}
+
+.header {
+    background-color: #ECB176;
+}

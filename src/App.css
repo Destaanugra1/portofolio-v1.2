@@ -41,3 +41,12 @@ html {
   scroll-behavior: smooth;
 
 }
+
+.accordion-button:not(.collapsed) {
+  color: #1b365e;
+  background-color: #ECB176;
+}
+
+.accordion-button {
+  background-color: #ECB176;
+}

@@ -3,7 +3,7 @@ import Styles from "./HomeComp.module.css";
 import images from "../images/foto2.png";
 import 'animate.css';
 import AOS from "aos";
-import "aos/dist/aos.css"; // You can also use <link> for styles
+import "aos/dist/aos.css";
 // ..
 AOS.init();
 
@@ -36,8 +36,8 @@ const HomeComp = () => {
           </p>
           <div data-aos="zoom-in" data-aos-delay="600">
             <button href="/" className={Styles.bn5}>
-              <a className={Styles.awal__p__buttom} href="#Skills">
-                Learn
+              <a className={Styles.awal__p__buttom} href="/" download="desta.pdf">
+                Unduh<span className="ml-1">CV</span>
               </a>
             </button>
           </div>
