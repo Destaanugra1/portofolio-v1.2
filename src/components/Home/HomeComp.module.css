@@ -71,7 +71,7 @@
   font-family: "poppins", sans-serif;
   text-decoration: none;
   font-style: italic;
-  font-size: 1rem;
+  font-size: 1em;
   margin-bottom: 1rem;
 }
 
@@ -163,6 +163,16 @@
 /* mobile */
 
 @media screen and (max-width: 768px) {
+  .awal__p__buttom {
+    font-size: 1rem;
+  }
+  /* .bn5 {
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+  } */
+
   .awal__div__body__full {
     height: auto;
     flex-direction: column-reverse;
@@ -191,3 +201,5 @@
     color: var(--primary);
   }
 }
+
+

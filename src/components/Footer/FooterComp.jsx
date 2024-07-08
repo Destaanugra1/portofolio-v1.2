@@ -8,6 +8,7 @@ const FooterComp = () => {
       <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 lg:px-8">
         <div className="sm:flex sm:items-center sm:justify-between">
           <div className="flex justify-center text-teal-600 sm:justify-start"></div>
+          
           <Accordion className={Styles.accordion} defaultActiveKey="0">
       <Accordion.Item className={Styles.header} eventKey="0">
         <Accordion.Header className={Styles.header}>Umur</Accordion.Header>
@@ -22,6 +23,7 @@ const FooterComp = () => {
         </Accordion.Body>
       </Accordion.Item>
     </Accordion>
+    <div className="">
           <a href="/" className="flex gap-4 justify-end">
             <a href="https://www.instagram.com/destaanugrahpr?igsh=b3AxNHk4ZGZocHJm"><svg
               xmlns="http://www.w3.org/2000/svg"
@@ -55,6 +57,7 @@ const FooterComp = () => {
             </svg>
             </a>
           </a>
+          </div>
           <p className="mt-5 text-center text-sm text-gray-500 lg:mt-0 lg:text-right">
             Copyright &copy; 2024. All rights reserved. Xenon
           </p>

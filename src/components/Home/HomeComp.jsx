@@ -35,11 +35,13 @@ const HomeComp = () => {
             Junior
           </p>
           <div data-aos="zoom-in" data-aos-delay="600">
+            <div className="">
             <button href="/" className={Styles.bn5}>
               <a className={Styles.awal__p__buttom} href="/" download="desta.pdf">
-                Unduh<span className="ml-1">CV</span>
+                My CV
               </a>
             </button>
+            </div>
           </div>
         </div>
         <div  className={Styles.awal}>
